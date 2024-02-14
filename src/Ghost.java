@@ -201,7 +201,6 @@ public class Ghost implements Runnable {
             case DOWN -> Direction.UP;
             case LEFT -> Direction.RIGHT;
             case RIGHT -> Direction.LEFT;
-            default -> null;
         };
     }
 

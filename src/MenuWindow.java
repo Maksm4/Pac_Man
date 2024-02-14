@@ -11,6 +11,8 @@ public class MenuWindow extends JFrame {
     public MenuWindow() {
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ImageIcon MainIcon = new ImageIcon("");
+        this.setIconImage(MainIcon.getImage());
 
         ImageIcon background = new ImageIcon("src/images/pacmanBackground.png");
 
